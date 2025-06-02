@@ -1,29 +1,31 @@
 /* Custom Styles for ClearRoute Recreation */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: #333;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  color: #333;
 }
 
 header .navbar {
-    border-bottom: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
 }
 
 main section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 #hero {
-    background-color: #f8f9fa; /* Light grey background for hero */
+  background-color: #f8f9fa; /* Light grey background for hero */
 }
 
 #hero h1 {
-    font-size: 2.8rem; /* Slightly smaller than display-3 default */
+  font-size: 2.8rem; /* Slightly smaller than display-3 default */
 }
 
 .card {
-    border: none;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
 /* Footer styling is mostly handled by Bootstrap bg-dark text-white */
@@ -37,7 +39,7 @@ main section {
 
 /* Responsive adjustments if needed */
 @media (max-width: 768px) {
-    #hero h1 {
-        font-size: 2.2rem;
-    }
+  #hero h1 {
+    font-size: 2.2rem;
+  }
 }
