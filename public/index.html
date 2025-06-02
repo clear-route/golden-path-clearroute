@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node.js Golden Path</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <button id="showTimeModalBtn">Show Details</button>
+
+    <div id="timeModal" class="modal" style="display: none">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2 id="modalWelcomeMessage">Welcome to the application!</h2>
+        <p>Current Time: <span id="modalCurrentTime">--:--:--</span></p>
+      </div>
+    </div>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
