@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-golden-path",
+  "name": "golden-path-clearroute",
   "version": "1.0.0",
-  "description": "Node.js application with a hello world and time modal.",
+  "description": "Recreation of the clearroute.io homepage using Node.js and Bootstrap 5.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
